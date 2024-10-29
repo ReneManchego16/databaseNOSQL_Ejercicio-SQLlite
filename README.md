@@ -2,18 +2,18 @@
 jercicios Básicos con SQlite
 Los ejercicios básicos funcionan con la versión 3.11 de sqlite3. Por lo que se recomienda el uso de la misma versión para su correcta ejecución.
 
-Instalación
-Linux
-Ubuntu & Debian
+# Instalación
+- Linux
+- Ubuntu & Debian
 sudo apt-get install sqlite3 sqlite3-dev
 RPM (CentOS, Fedora, OpenSuse, RedHat)
 sudo yum install sqlite
-Mac
+# -Mac
 La mayoría de los equipos Mac vienen con sqlite instalado. Esto se puede probar en la consola con el comando sqlite3. En caso de que no se encuentre instalado es necesario descargar el archivo zip que se encuentra en el apartado Precompiled Binaries for Mac OS X (x86) de la página oficial del profecto sqlite.
 
 Este archivo contiene los ejecutables de sqlite. Es mejor ejecutar estos binarios dentro de la consola para poder especificar la base que se usara para los ejecrcicios.
 
-Windows
+# -Windows
 En principio bajamos los binarios la página oficial de sqlite. Bajo el apartado Precompiled Binaries for Windows. Aquí existen 3 descargables, 2 zip's con el la librería dll necesaria para usar sqlite. Debemos de usar aquella que tiene 32 o 64 bits dependiendo de nuestro sistema.
 
 A su vez tenemos un archivo que nos permite usar la línea de comandos y otras utilidades para manipular las bases de datos.
